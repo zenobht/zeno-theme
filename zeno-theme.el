@@ -249,11 +249,11 @@
   
 
   ;; neotree
-  `(neo-dir-link-face ((t (:foreground ,face7 ))))
+  `(neo-dir-link-face ((t (:foreground ,face10 ))))
   `(neo-root-dir-face ((t (:foreground ,face1 ))))
 
   ;; treemacs
-  `(treemacs-directory-face ((t (:foreground ,face7 ))))
+  `(treemacs-directory-face ((t (:foreground ,face10 ))))
 
   ;; parentheses matching
   ;; `(show-paren-match ((t (:height 0.8 :width condensed :box (:line-width 1 :color "cyan" :style none )))))
@@ -264,7 +264,7 @@
   `(rainbow-delimiters-unmatched-face ((t (:inherit show-paren-mismatch))))
 
   ;; dired
-  `(dired-directory ((t (:foreground ,face7 ))))
+  `(dired-directory ((t (:foreground ,face10 ))))
 
   ;; Web-mode
   `(web-mode-html-attr-custom-face ((t (:foreground ,face7))))
