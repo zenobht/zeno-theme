@@ -1,4 +1,4 @@
-;;; zeno-theme.el --- A dark theme with vibrant colors
+;;; zeno-theme.el --- A dark theme using different shades of blue
 
 ;; Copyright (C) 2017 Bharat Joshi
 
@@ -28,20 +28,20 @@
 
 ;;; Commentary:
 
-;; Bright colors over dark background with option to enable italics
+;; A dark theme using different shades of blue with option to enable italics
 ;; Inspired by Dracula-theme
 
 ;;; Code:
 
 (deftheme zeno
-  "A dark theme with vibrant colors")
+  "A dark theme using different shades of blue")
 
 (defgroup zeno-theme nil
   "Zeno-theme options."
   :group 'faces)
 
 (defcustom zeno-theme-enable-italics nil
-  "Enable italics for functions, comments, directories"
+  "Enable italics for functions, comments, directories."
   :type 'boolean
   :group 'zeno-theme)
 
@@ -182,7 +182,7 @@
  `(rainbow-delimiters-depth-1-face ((t (:inherit outline-1))))
  `(rainbow-delimiters-depth-2-face ((t (:inherit outline-2))))
  `(rainbow-delimiters-depth-3-face ((t (:inherit outline-3))))
- `(rainbow-delimiters-depth-4-face ((t (:inherit outline-4)))) 
+ `(rainbow-delimiters-depth-4-face ((t (:inherit outline-4))))
  `(rainbow-delimiters-depth-5-face ((t (:inherit outline-5))))
  `(rainbow-delimiters-depth-6-face ((t (:inherit outline-6))))
  `(rainbow-delimiters-depth-7-face ((t (:inherit outline-7))))

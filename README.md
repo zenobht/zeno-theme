@@ -1,6 +1,6 @@
 # Zeno-theme for [Emacs](https://www.gnu.org/software/emacs/)
 
-> A dark opinionated theme with vibrant colors for [Emacs](https://www.gnu.org/software/emacs/).
+> A dark theme using different shades of blue for [Emacs](https://www.gnu.org/software/emacs/).
 > Inspired by Dracula themes
 
 ## Screenshots
