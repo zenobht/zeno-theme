@@ -317,6 +317,11 @@
  `(diredp-dir-priv ((t (:foreground ,maya_blue))))
  `(diredp-write-priv ((t (:foreground ,lime_green))))
  `(diredp-no-priv ((t (:foreground ,fg))))
+ `(diredp-compressed-file-name ((t (:foreground ,very_light_pink))))
+ `(diredp-compressed-file-suffix ((t (:foreground ,very_light_pink))))
+ `(diredp-ignored-file-name ((t (:foreground ,cranberry))))
+ `(diredp-symlink ((t (:foreground ,lime_green))))
+ `(diredp-rare-priv ((t (:foreground ,light_violet))))
 
  `(evil-snipe-first-match-face ((t (:inherit isearch))))
  `(evil-snipe-matches-face ((t (:inherit isearch))))
