@@ -115,7 +115,8 @@
  `(minibuffer-prompt ((t (:foreground ,turquoise-blue))))
 
  ;; powerline/modeline
- `(mode-line ((t (:foreground ,fg :background ,mode-line-active))))
+ `(mode-line ((t (:foreground ,fg :background ,mode-line-active
+                  :box (:line-width 1 :color ,seperator :style released-button)))))
  `(mode-line-inactive ((t (:foreground ,ml-inactive-face :background ,mode-line-inactive :box nil))))
  `(powerline-active0 ((t (:inherit mode-line :background ,bg))))
  `(powerline-active1 ((t (:inherit mode-line :background ,bg))))
