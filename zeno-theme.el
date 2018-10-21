@@ -161,7 +161,7 @@
  `(isearch-fail ((t (:foreground ,full-white :background ,warning-bg-face))))
  `(ahs-plugin-whole-buffer-face ((t (:foreground ,full-black :background ,maya-blue))))
  `(ahs-face ((t (:foreground ,full-black :background ,lavender-blue))))
- `(ahs-definition-face ((t (:background ,lavender-blue :foreground ,light-green-cyan))))
+ `(ahs-definition-face ((t (:background ,lavender-blue :foreground ,full-black))))
 
  ;; org
  `(outline-2 ((t (:background ,bg :foreground ,light-violet))))
