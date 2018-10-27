@@ -101,14 +101,19 @@
  `(underline ((t (:underline t))))
 
  ;; diff
- `(diff-added ((t (:foreground ,light-violet :weight bold))))
  `(diff-context ((t (:foreground ,fg))))
  `(diff-file-header ((t (:foreground ,turquoise-blue :background nil))))
- `(diff-indicator-added ((t (:foreground ,light-violet))))
- `(diff-indicator-removed ((t (:foreground ,lime-green))))
  `(diff-header ((t (:foreground ,fg :background ,diff1))))
  `(diff-hunk-header ((t (:foreground ,atlantis-green :background ,diff1))))
- `(diff-removed ((t (:foreground ,lime-green :weight bold))))
+ `(diff-refine-added ((t (:foreground ,atlantis-green))))
+ `(diff-refine-changed ((t (:foreground ,lime-green))))
+ `(diff-refine-removed ((t (:foreground ,cranberry))))
+ `(diff-added ((t (:foreground ,atlantis-green))))
+ `(diff-changed ((t (:foreground ,lime-green))))
+ `(diff-removed ((t (:foreground ,cranberry))))
+ `(diff-indicator-added ((t (:foreground ,atlantis-green))))
+ `(diff-indicator-changed ((t (:foreground ,lime-green))))
+ `(diff-indicator-removed ((t (:foreground ,cranberry))))
 
 
  `(escape-glyph ((t (:foreground ,lavender-blue))))
