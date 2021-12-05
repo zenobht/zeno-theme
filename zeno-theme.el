@@ -161,6 +161,9 @@
  `(hl-line ((t (:background ,hl-line-highlight))))
  `(lazy-highlight ((t (:foreground ,full-black :background ,lavender-blue))))
 
+ ;; Text color of the higlighted part
+ `(completions-common-part ((t (:foreground ,cranberry))))
+
  ;; isearch
  `(isearch ((t (:foreground ,full-black :background ,lavender-blue))))
  `(isearch-fail ((t (:foreground ,full-white :background ,warning-bg-face))))
